@@ -97,7 +97,6 @@ nav ul li a{
 }
 
 
-}
 .secondary-bg{
     padding: 50px 0;
 }
@@ -110,10 +109,14 @@ nav ul li a{
     background-color: #FFF8F3;
 }
 
+body{
+    background-color: #FFFFFF;
+}
+
 main{
     max-width: 1140px;
     margin: 0 auto;
-    background-color: #FFF8F3;
+    background-color: #FFFFFF;
 }
 
 .about-content{
@@ -153,8 +156,31 @@ main{
     padding: 30px;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
     text-align: left;
+    /* height: 377px; */
+    width: 267px;
 }
 
 main section{
     margin-top: 130px;
+}
+
+
+
+.section-title{
+    text-align: center;
+}
+
+.resume-content{
+    display: flex;
+    /* justify-content: center; */
+    gap: 20px;
+}
+
+.resume{
+    margin-top: 0;
+    text-color: #474747;
+}
+
+.resume_download{
+    margin-bottom: 50px;
 }

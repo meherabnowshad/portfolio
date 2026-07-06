@@ -8,6 +8,11 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <style>
+        .section-title {
+            padding-top: 0;
+        }
+    </style>
 </head>
 <body class="open-sans ">
     <header class="header secondary-bg">
@@ -57,7 +62,7 @@
         <section class="skills">
             <h2 class="section-title">What I do</h2>
             <p class="section-description">I am a web developer and designer. I create beautiful and functional websites. I have a passion for web development and design. I am always looking for new challenges and opportunities to learn and grow.</p>      
-        <div class="skills-content">
+            <div class="skills-content">
                     <div class="skills-item">
                         <img src="./images/icons/js.png" alt="Javascript" class="skills-icon">
                         <h3 class="skills-title">Javascript</h3>
@@ -78,8 +83,60 @@
                         <h3 class="skills-title">MongoDB</h3>
                         <p class="skills-description">I have a good knowledge of MongoDB and I can create beautiful and functional websites using MongoDB.</p>
                     </div>
+            </div>
+        </section>
+        <section class="resume">
+            <h2 class="section-title">A Summary of my resume</h2>
+            <div class="resume-content" style="display: flex; gap: 2rem;">
+                <div class="resume-column" style="flex: 1;">
+                    <div class="education">
+                        <h3>Education</h3>
+                        <div class="education-item">
+                            <h4 class="education-item-title">BSc in Computer Science and Engineering</h4>
+                            <p class="education-item-description">University of Dhaka, Bangladesh</p>
+                        <p class="education-item-date">2018 - 2022</p>  
+                        <hr>
+                        </div>
+                        <div class="education-item">
+                            <h4 class="education-item-title">Higher Secondary Certificate</h4>
+                            <p class="education-item-description">Dhaka College, Bangladesh</p>
+                            <p class="education-item-date">2016 - 2018</p>
+                        </div>
+                        <hr>
+                        <div class="education-item">
+                            <h4 class="education-item-title">Secondary School Certificate</h4>
+                            <p class="education-item-description">Motijheel Model High School, Bangladesh</p>
+                            <p class="education-item-date">2014 - 2016</p>
+                        </div>
+                    </div>
                 </div>
-            </section>
+                <div class="resume-column" style="flex: 1;">
+                    <div class="experience">
+                        <h3>Experience</h3>
+                        <div class="experience-item">
+                            <h4 class="experience-item-title">Frontend Developer</h4>
+                            <p class="experience-item-description">ABC Company, Bangladesh</p>
+                            <p class="experience-item-date">2022 - Present</p>
+                        </div>
+                        <hr>
+                        <div class="experience-item">
+                            <h4 class="experience-item-title">Internship</h4>
+                            <p class="experience-item-description">XYZ Company, Bangladesh</p>
+                            <p class="experience-item-date">2021 - 2022</p>
+                        </div>
+                        <hr>
+                        <div class="experience-item">
+                            <h4 class="experience-item-title">Freelance Web Developer</h4>
+                            <p class="experience-item-description">Self-employed, Bangladesh</p>
+                            <p class="experience-item-date">2020 - 2021</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center resume_download" style="margin-top: 2rem; text-align: center;">
+                <button class="btn-primary">Download Resume</button>
+            </div>
+        </section>
     </main>
 </body>
 </html>
