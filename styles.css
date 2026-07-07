@@ -99,6 +99,7 @@ nav ul li a{
 
 .secondary-bg{
     padding: 50px 0;
+    background-color: #FFF8F3;
 }
 
 .about{
@@ -183,4 +184,29 @@ main section{
 
 .resume_download{
     margin-bottom: 50px;
+}
+
+.footer{
+    display: flex;
+    /* justify-content: space-between; */
+    padding: 130px 230px;
+    gap: 30px;
+    
+
+}
+
+.footer-content{
+    flex: 1;
+    width: 50%;
+}
+
+footer input[type="text"], footer input[type="email"], footer textarea {
+    width: 100%;
+    padding: 10px 20px;
+    border-radius: 5px;
+    height: 60px;
+    background-color: white;
+    margin-bottom: 20px;
+    margin-bottom: 24px;
+    border: none;
 }
